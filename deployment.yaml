@@ -13,9 +13,9 @@ spec:
         app: hola-pod
     spec:
       containers:
-      - name: hola-pod
-        image: quay.io/martinezj/hola-pod:latest
-        ports:
-        - containerPort: 8080
+        - name: hola-pod
+          image: quay.io/martinezj/demo-ocp:1.0.0
+          ports:
+            - containerPort: 8080
       imagePullSecrets:
-      - name: secret-registry
+        - name: secret-registry
