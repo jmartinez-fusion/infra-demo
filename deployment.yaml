@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hola-pod
-          image: quay.io/martinezj/demo-ocp:7617c8a231849cd3643a93ba0b78f81e8dba2179:7617c8a231849cd3643a93ba0b78f81e8dba2179
+          image: quay.io/martinezj/demo-ocp:36c56af72dc81cdc38457272aa9731a4f6353c66
           ports:
             - containerPort: 8080
       imagePullSecrets:
